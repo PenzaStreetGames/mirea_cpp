@@ -12,6 +12,7 @@ using namespace std;
 #include "Tasks/Testing.cpp"
 #include "Tasks/FileWorks.cpp"
 #include "Tasks/Classwork2.cpp"
+#include "Sandbox.cpp"
 
 int main()
 {
@@ -155,7 +156,7 @@ int main()
 			}
 			break;
 		case -1:
-			//lyashenko();
+			sandbox();
 			break;
 		default:
 			cout << "Работа с таким номером не найдена\n";

@@ -93,3 +93,9 @@ void lg1_balls() {
 	cout << balls_number_combs(balls);
 }
 
+vector<vector <int>> read_field() {
+
+}
+
+void lg1_life() {
+}
